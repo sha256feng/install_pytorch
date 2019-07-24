@@ -4,7 +4,7 @@ Here we install PyTorch on the GPU clusters, using SOL at Lehigh Univ as an exam
 
 ## Clone the repo
 
-Log in to a head node on one of the GPU clusters (Tiger or Adroit). Then clone the repo using:
+Log in to a head node on one of the GPU clusters. Then clone the repo using:
 
 ```
 git clone https://github.com/sha256feng/install_pytorch.git
