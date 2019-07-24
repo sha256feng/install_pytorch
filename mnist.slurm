@@ -7,12 +7,12 @@
 #SBATCH --job-name="pytorch_tutorial"
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
-#SBATCH --mail-user=YourNetID@princeton.edu
+#SBATCH --mail-user=
  
 module purge
-module load anaconda3
+#module load anaconda3
 module list
 
-conda activate pytorch_tutorial
+conda activate torch_env
 
 srun python mnist_classify.py
